@@ -1,0 +1,19 @@
+# 2.4 Protection with PropTypes
+- `father component에서 받은 props가 제대로 된 것인지 확인`
+
+---
+### 1. prop-types 설치
+- `$ npm i prop-types`
+- ✅ node.js에 무언가를 설치하는 법 - `$ npm i [name]`
+- ✅ 잘 설치되었는지 확인 - package.json에 dependencies
+- 전달받은 props가 내가 원하는 props인지 확인해 줌
+
+### 2. Food.propTypes에서 props 체크
+- renderFood에 return 코드: map은 뭐가 들어오든 array로 돌려주기 때문
+
+[Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+
+---
+### 결론
+- 지금까지 한 것: jsx도 알고, props도 암 
+-이제 알아야할 것: state(다음 시간)

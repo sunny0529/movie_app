@@ -38,11 +38,16 @@ const foodILike = [
   }
 ];
 
+function renderFood(dish){
+  console.log(dish); // 전달됨 확인 가능
+  return <Food name={dish.name} picture={dish.image} />
+}
+
 function App() {
   return (
     <div>
       <h1>Hello</h1>
-      {foodILike.map(dish => <Food name={dish.name} picture={dish.image} />)}
+      {foodILike.map(renderFood)}
     </div>
   );
 }
